@@ -1,0 +1,264 @@
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding:0;
+  margin:0;
+  font-family: "Roboto", sans-serif;
+}
+
+.clear-fix {
+  overflow: auto;
+}
+
+.education-entry,
+.work-entry,
+.project-entry {
+  padding: 0 5%;
+  color: deeppink;
+}
+
+h1 {
+  font-size: 40px;
+  color:deeppink;
+  line-height: 48px;
+  display: inline;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: deeppink;
+  line-height: 29px;
+  padding: 10px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 20px;
+  color: #000;
+  line-height: 22px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4a4a4a;
+  line-height: 17px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  padding:10px 5%;
+}
+
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: deeppink;
+  line-height: 16px;
+  float: left;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: hotpink;
+  line-height: 16px;
+  float: right;
+}
+
+p {
+  font-size: 14px;
+  color: #333;
+  line-height: 21px;
+}
+
+a {
+  color: #1199c3;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
+.welcome-message {
+  font-style: bolder;
+  font-style: italic;
+  font-size: 22px;
+  color: #fff;
+  line-height: 30px;
+  float: right;
+  width: 350px;
+	height: 100px;
+  margin: 20px;
+  text-align: justify;
+}
+
+#skills-h3 {
+  color:deeppink;
+  display: none;
+}
+
+.orange {
+  background-color: lightpink;
+}
+
+.orange-text {
+  color: deeppink;
+}
+
+.white-text {
+  font-weight: bold;
+  color: #fff;
+}
+
+.gray {
+  background-color: #f3f3f3;
+  padding-bottom: 10px;
+  clear:both;
+}
+
+.dark-gray {
+  background-color: #b3c2bf;
+  font-weight: bolder;
+}
+
+/* TODO: Replace with image later */
+#header {
+  background-color: lightpink;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 10px;
+}
+
+.center-content {
+  padding: 2.5% 5%;
+}
+
+ul {
+  list-style-type: none;
+  text-align:left;
+}
+
+.biopic {
+  float: left;
+  padding: 5px;
+  width: 200px;
+  display: none;
+  border-radius: 15px 50px;
+  border-style: dashed;
+  border-width: 5px;
+  border-color: deeppink;
+}
+
+img {
+  padding: 10px;
+}
+
+span {
+  padding: 5px;
+}
+
+button {
+  margin: 5px;
+ }
+
+.title1 {
+  padding-top: 10px;
+}
+
+.portfolio {
+  width: 100%;
+  max-width: 300px;
+  float: left;
+    
+    height: 400px;
+    margin: 10px;
+    border: 3px solid deeppink;
+}
+
+#lets-connect {
+  text-align: center;
+}
+
+.onlineStarter {
+  padding-top: 30px;
+  color: deeppink;
+}
+
+.onlineCourse {
+  padding-bottom: 20px;
+  color: deeppink;
+}
+
+.not-active {
+   pointer-events: none;
+   cursor: default;
+}
+
+/* Media queries to handle various device widths */
+
+@media only screen and (max-width: 1024px) {
+  #lets-connect {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #lets-connect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 150px;
+  }
+  .welcome-message {
+    display: none;
+  }
+}
+
+#map {
+  display: block;
+  height: 100%;
+  margin: 0 5%;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+@media only screen and (min-width: 750px) {
+  #skills-h3,
+  .biopic {
+    display: block;
+  }
+}
