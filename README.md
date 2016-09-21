@@ -1,4 +1,4 @@
-# Resume In Made in JavaScript
+# Resume Made in JavaScript
 
 ### Interactive Resume
 
