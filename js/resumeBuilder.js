@@ -2,7 +2,7 @@ var bio = {
     "name": "Rosenny Griffin",
     "role": "Web Developer",
     "contacts": {
-        "mobile": "303-961-2258",
+        "mobile": "1-303-961-2258",
         "email": "rosenny08@gmail.com",
         "github": "rosenny08",
         "instagram": "rrmg08",
@@ -225,8 +225,7 @@ education.display = function() {
         }
     });
 
-    // Online courses section
-    education.onlineCourses.forEach(function(rose) {
+      education.onlineCourses.forEach(function(rose) {
         $("#education").append(HTMLonlineClasses);
 
         var formattedOnlineTitle = HTMLonlineTitle.replace("%data%", rose.title);
